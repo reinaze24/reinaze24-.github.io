@@ -1,0 +1,106 @@
+
+header{ display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+     width:100% ;
+    background-color: beige;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li{
+    margin: 10px;
+}
+
+img{width : 150px;
+
+}
+
+h1{font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+
+}
+p{
+    font-size: 24px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contenedor{display: flex;
+
+;flex-direction: column;
+width: 100%;
+margin-right: 10px;
+margin-bottom: 5%;
+margin-left: 10px;
+margin-top:5% ;
+align-items: baseline;
+
+
+
+}
+.caja{width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+
+
+}
+.caja img {border-radius:50% ;
+
+}
+.caja p{
+    font-size: 16px;
+}
+
+.presentacion{
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    
+}
+
+.presentacion h1{font-size: 35px;
+    color: blue;
+
+}
+.presentacion p{
+    width: 70%;
+    font-size: 30px;
+    padding: 10px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nosotros{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#nosotros iframe{
+    padding: 10px;
+    margin: 10px;
+}
+
+iframe{
+    margin: 35px;
+padding: 10px;}
+
